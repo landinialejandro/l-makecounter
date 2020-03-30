@@ -1,7 +1,9 @@
 # makecounter.js is small control to animate counter
 
 author Alejandro Landini [landini.com.ar](http://landini.com.ar/)
+
 version 1.0
+
 copyright © 2020 Alejandro Landini
 
 name l-makecounter
