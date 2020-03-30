@@ -1,4 +1,4 @@
-# makecounter.js is small control to animate counter
+# l-makecounter.js is small control to animate counter
 
 author Alejandro Landini [landini.com.ar](http://landini.com.ar/)
 
@@ -7,29 +7,33 @@ version 1.0
 copyright © 2020 Alejandro Landini
 
 name l-makecounter
+
 type  jQuery
 
-## tutorial
+## Tutorial
 
  This control has two functions:
 
+    This js constructor that allows to reform any element in an animated counter. option values can be passed to it.
+    
+    $(element).mcounter(); 
 
-    $(element).mcounter(); //is the js constructor that allows to reform any element in an animated counter. option values can be passed to it.
+    This second method activates the counters on the screen, if these are visible, the counter starts.    
+    option values can be passed to it.
+     
     $('.counter').visibilityChanged (); 
 
-
-    This second method activates the counters on the screen, if these are visible, the counter starts. option values can be passed to it.
+   
     use HTML attr start counter without js
-
 
     <span class="counter" id="counter-lat" data-endcountvalue="3801"></span>
 
 
- param {Boolean} runOnLoad - true start counter is visible on load page
- param {Number} frequency - 100ms, time to check if the control chague vsibility
- param {Number} startcountvalue - start count value in counter
- param {Number} endcountvalue - end count value in counter
- param {Number} elapsetime -in seconds, elapse time to finish count
+    - param {Boolean} runOnLoad - true start counter is visible on load page
+    - param {Number} frequency - 100ms, time to check if the control chague vsibility
+    - param {Number} startcountvalue - start count value in counter
+    - param {Number} endcountvalue - end count value in counter
+    - param {Number} elapsetime -in seconds, elapse time to finish count
 
 ## Requires library
 
