@@ -1,6 +1,6 @@
 # makecounter.js is small control to animate counter
 
-author Alejandro Landini landini.com.ar
+author Alejandro Landini [landini.com.ar](http://landini.com.ar/)
 version 1.0
 copyright © 2020 Alejandro Landini
 
@@ -31,8 +31,8 @@ type  jQuery
 
 ## Requires library
 
- script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
- script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script> src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script> src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
 
 ## Example
 
